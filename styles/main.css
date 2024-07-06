@@ -5,7 +5,7 @@ body {
     font: 400 18px/28px Inter, sans-serif;
 }
 .container {
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 .header {
@@ -82,11 +82,9 @@ body {
     background: #19191C;
     display: flex;
     flex-direction: column;
-    margin: 0;
     gap: 100px;
     align-items: center;
     padding: 68px 240px 0;
-    width: 1440px;
 }
 .copyright {
     font-family: Inter;
@@ -154,4 +152,9 @@ body {
 .footer-list-link {
     color: #FBFBFC;
     text-decoration: none;
+}
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
