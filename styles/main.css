@@ -10,7 +10,7 @@ body {
 }
 .header {
     display: flex;
-    padding: 36px 0 0;
+    padding: 36px 240px;
     justify-content: space-between;
 }
 .header-box {
@@ -63,4 +63,18 @@ body {
     line-height: 22px;
     font-weight: 700;
     text-decoration: none;
+}
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+.offer-holder {
+    width: 648;
+
+}
+.offer-title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
 }
