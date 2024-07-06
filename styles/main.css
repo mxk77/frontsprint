@@ -78,3 +78,80 @@ body {
     line-height: 70px;
     text-align: left;
 }
+.footer {
+    background: #19191C;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 100px;
+    align-items: center;
+    padding: 68px 240px 0;
+    width: 1440px;
+}
+.copyright {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#6D6D77;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.privacy-policy {
+    text-decoration: none;
+    color: #6D6D77;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.logo-inv {
+    color: #FBFBFC;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.footer-link {
+    color: #FBFBFC;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-decoration: none;
+}
+.sitemap-box {
+    display: flex;
+    gap: 200px;
+}
+.sitemap-title {
+    color: #FBFBFC;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 0;
+}
+.sitemap-list {
+    display: flex;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.footer-list-link {
+    color: #FBFBFC;
+    text-decoration: none;
+}
