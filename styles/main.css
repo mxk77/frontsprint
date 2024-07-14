@@ -162,10 +162,9 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    text-align: left;
 }
 .footer-list-link {
-    color: #FBFBFC;
+    color: #EFEFF2;
     text-decoration: none;
     white-space: nowrap;
 }
