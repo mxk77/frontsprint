@@ -8,10 +8,6 @@ body {
     width: 1440px;
     margin: 0 auto;
 }
-.container-footer {
-    width: 1920px;
-    margin: 0 auto;
-}
 .header {
     display: flex;
     padding: 36px 240px;
@@ -89,24 +85,20 @@ body {
     gap: 100px;
     align-items: center;
     padding: 68px 0 0;
+    width: 1920px;
 }
-
 .footer-box {
-    width: 100%;
-    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 0 240px;
 }
-
 .footer-contacts {
     display: flex;
     flex-direction: column;
     gap: 28px;
     margin-left: 0;
 }
-
 .sitemap-box {
     display: flex;
     gap: 160px;
@@ -155,9 +147,9 @@ body {
 }
 .sitemap-list {
     display: flex;
+    flex-direction: column;
     gap: 12px;
-    padding: 0;
-    margin: 0;
+    padding-left: 0;
     list-style: none;
     font-size: 18px;
     font-weight: 400;
